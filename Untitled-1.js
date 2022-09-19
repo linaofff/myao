@@ -30,3 +30,7 @@ if (number.toLowerCase() == "7") {
 if (number.toLowerCase() == "5") {
   alert("Ai, sa pakkusid väga lähedale.");
 }
+if (number.toLowerCase() == "6") {
+  alert("Yay! Arvasid õige numbri ära. Valitud uus number!")
+  Math.floor(Math.random() * 10) + 1;
+}
